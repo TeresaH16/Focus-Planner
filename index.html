@@ -1,1 +1,13 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Small Hours — focus planner</title><link rel="stylesheet" href="styles.css"></head><body><main class="shell"><header><a class="brand" href="#">✳ small hours</a><span id="today"></span></header><section class="intro"><p class="eyebrow">A little room to think</p><h1>Make space for<br><em>what matters.</em></h1><p>Pick one meaningful thing. Give it a little time. Let the rest wait.</p></section><section class="planner"><div class="panel"><b>01　 What’s on your mind?</b><form id="task-form"><label class="sr" for="task-input">Describe your task</label><input id="task-input" maxlength="90" placeholder="e.g. Sketch ideas for my portfolio" required><div class="row"><label for="duration">I have</label><select id="duration"><option value="15">15 minutes</option><option value="25" selected>25 minutes</option><option value="45">45 minutes</option></select><button>Add focus ↗</button></div></form><small>✦ Keep it small enough to begin right now.</small></div><aside><span class="sun">☼</span><p class="quote">“You don’t have to see the whole staircase. Just take the first step.”</p><small>— Martin Luther King Jr.</small><hr><small>A softer kind of productivity. Progress over pressure, every time.</small></aside></section><section class="focus"><div class="heading"><b>02　 Your focus list</b><span id="task-count">0 sessions</span></div><div id="empty-state" class="empty"><span>◌</span><p>Your next small win belongs here.</p><small>Start with whatever feels easiest.</small></div><ul id="task-list" aria-live="polite"></ul></section><footer>Made for the in-between moments.<button id="clear-done" hidden>Clear completed</button></footer></main><div id="toast" role="status"></div><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>focus-planner-main</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
