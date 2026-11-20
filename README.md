@@ -73,18 +73,12 @@ The app was opened in a browser, and adding a task was confirmed to display it i
 
 ## Screenshots
 
-Add at least two screenshots of the running application before submitting:
-
 - The planner with no tasks.
 - The planner with one or more tasks in the focus list.
 
-Save them in a `screenshots` folder and link them here. For example:
-
-```markdown
 ![Empty planner](screenshots/empty-planner.png)
 
-![Focus list with tasks](screenshots/focus-list.png)
-```
+![Focus list with a task](screenshots/focus-list.png)
 
 ## Future Improvements
 
